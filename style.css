@@ -101,3 +101,51 @@ header {
 
     box-sizing: border-box;
 }
+
+.other-amount {
+    text-align: center;
+    color: black;
+    font-weight: 400px;
+    margin-top: 55px;
+}
+
+hr {
+    width: 75%;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.link-button1 {
+    margin-left: 400px;
+    margin-top: 15px;
+}
+
+.distribution {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+.flood-help {
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid gray;
+    margin-top: 50px;
+}
+
+.bg-1 {
+    background-color: beige;
+}
+
+.bg-2 {
+    background-color: rgb(211, 169, 231);
+}
+
+.bg-3 {
+    background-color: rgb(165, 165, 127);
+}
