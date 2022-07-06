@@ -240,10 +240,10 @@ hr {
 
 .bt {
     background-color: tomato;
-    padding: 5px;
+    padding: 10px;
+    padding-left: 10px;
     text-decoration: none;
     border: 2px solid tomato;
-    border-radius: 10px;
     color: white;
 
 }
@@ -258,6 +258,11 @@ hr {
 
 
 
+}
+
+.type-email {
+
+    padding: 10px;
 }
 
 footer {
