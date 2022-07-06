@@ -14,6 +14,7 @@ header {
     background-image: url(images/donation9.jpg);
     background-repeat: none;
     background-size: cover;
+    background-image: linear-gradient(black), rgb(92, 88, 88);
 
 }
 
@@ -29,13 +30,19 @@ header {
 .top {
     color: tomato;
     font-weight: bold;
-    padding: 30px;
+    text-align: left;
+    font-size: 50px;
+    margin-left: 15px;
+    text-shadow: 10px 10px 40% white;
+
 }
 
 .second {
     color: tomato;
     font-weight: bold;
     font-size: 50px;
+    text-align: left;
+    margin-left: 15px;
 }
 
 .p-text {
@@ -134,8 +141,8 @@ hr {
     box-sizing: border-box;
     margin: 10px;
     padding: 10px;
-    border: 2px solid gray;
     margin-top: 50px;
+    border-radius: 5px;
 }
 
 .bg-1 {
@@ -143,9 +150,131 @@ hr {
 }
 
 .bg-2 {
-    background-color: rgb(211, 169, 231);
+    background-color: rgb(202, 163, 170);
 }
 
 .bg-3 {
-    background-color: rgb(165, 165, 127);
+    background-color: rgb(165, 158, 127);
+}
+
+.bottom {
+    margin-top: 50px;
+}
+
+.text-line {
+    text-align: center;
+    font-weight: 300px;
+
+}
+
+#process {
+    text-align: center;
+    color: gray;
+    font-weight: 400px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#one {
+    text-align: center;
+    border: 2px solid rgb(214, 182, 111);
+    background-color: rgb(189, 187, 95);
+    color: white;
+    font-family: Splash;
+    border-radius: 20px;
+}
+
+#two {
+    text-align: center;
+    border: 2px solid rgb(174, 202, 141);
+    background-color: rgb(133, 172, 108);
+    color: white;
+    font-family: Splash;
+    border-radius: 20px;
+
+}
+
+#three {
+    text-align: center;
+    border: 2px solid rgb(122, 150, 192);
+    background-color: rgb(93, 127, 165);
+    color: white;
+    font-family: Splash;
+    border-radius: 30px;
+
+}
+
+#fourth {
+    text-align: center;
+    border: 2px solid rgb(137, 94, 146);
+    background-color: rgb(101, 71, 117);
+    color: white;
+    font-family: Splash;
+    border-radius: 30px;
+
+}
+
+.registration {
+    width: 1005;
+    display: flex;
+
+}
+
+.items {
+    width: 40%;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: beige;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.get-text {
+    text-align: center;
+    font-size: bold;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+
+.bt {
+    background-color: tomato;
+    padding: 5px;
+    text-decoration: none;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.communication {
+    background-color: rgb(206, 206, 168);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    padding: 50px;
+
+
+
+}
+
+footer {
+    background-color: black;
+}
+
+#footer-text {
+    font-family: The Nautigal;
+    color: tomato;
+    text-align: center;
+    margin-top: 50px;
+    font-style: italic;
+
+
+}
+
+.footer-paragaph {
+    text-align: center;
+    color: white;
 }
